@@ -1,0 +1,241 @@
+:root {
+  --header-color: #212121;
+  --header-link-color: #2196f3;
+  --text-color: #757575;
+  --hov-foc: #2196f3;
+}
+body {
+  font-family: Roboto, Tahoma, sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+.heder-logo-web {
+  font-family: "Raleway, Tahoma, sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.heder-logo-studio {
+  font-family: "Raleway, Tahoma, sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--header-color);
+}
+.haeder-link:hover {
+  color: var(--header-link-color);
+}
+.haeder-link:focus {
+  color: var(--header-link-color);
+}
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.header-mail:hover {
+  background: #2196f3;
+}
+.header-mail:focus {
+  background: #2196f3;
+}
+.header-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-phone:hover {
+  background: var(--hov-foc);
+}
+.header-phone:focus {
+  background: var(--hov-foc);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #2f303a;
+}
+.hero-btn {
+  background: #2196f3;
+  cursor: pointer;
+}
+.hero-btn-text {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #ffffff;
+}
+.hero-btn:hover {
+  background: #ffffff;
+}
+.hero-btn-text:hover {
+  color: var(--hov-foc);
+}
+.hero-btn:focus {
+  background: #ffffff;
+}
+.hero-btn-text:focus {
+  color: var(--hov-foc);
+}
+.about-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+.about-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.him-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+.comand-top-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+.comand-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+.comand-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo-web {
+  font-family: "Raleway, Tahoma, sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.footer-logo-studio {
+  font-family: "Raleway, Tahoma, sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-map:hover {
+  background: #2196f3;
+}
+.footer-map:focus {
+  background: var(--hov-foc);
+}
+.footer-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover {
+  background: var(--hov-foc);
+}
+.footer-mail:focus {
+  background: var(--hov-foc);
+}
+.footer-phone {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-phone:hover {
+  background: var(--hov-foc);
+}
+.footer-phone:focus {
+  background: var(--hov-foc);
+}
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+}
+.herop-button {
+  color: #f5f4fa;
+  cursor: pointer;
+}
+.herop-button-text {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.herop-button:hover {
+  background: var(--hov-foc);
+}
+.herop-button-text:hover {
+  color: #ffffff;
+}
+.herop-button:focus {
+  background: var(--hov-foc);
+}
+.herop-button-text:focus {
+  color: #ffffff;
+}
