@@ -13,24 +13,19 @@ body {
 .list {
   list-style: none;
 }
-
-.heder-logo-web {
-  font-family: "Raleway, Tahoma, sans-serif";
+.heder-logo {
+font-family: "Raleway, Tahoma, sans-serif";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+}
+.heder-logo-web {
+    color: #2196f3;
 }
 .heder-logo-studio {
-  font-family: "Raleway, Tahoma, sans-serif";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
+    color: #000000;
 }
 .header-list {
   font-weight: 500;
