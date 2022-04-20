@@ -13,21 +13,24 @@ body {
 .list {
   list-style: none;
 }
-.heder-logo {
-font-family: "Raleway, Tahoma, sans-serif";
+.header {
+  background-color: #ffffff;
+}
+.header-logo {
+  font-family: "Raleway, sans-serif";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.heder-logo-web {
-    color: #2196f3;
+.header-logo-web {
+  color: #2196f3;
 }
-.heder-logo-studio {
-    color: #000000;
+.header-logo-studio {
+  color: #000000;
 }
-.header-list {
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -35,10 +38,10 @@ font-family: "Raleway, Tahoma, sans-serif";
 
   color: var(--header-color);
 }
-.haeder-link:hover {
+.header-link:hover {
   color: var(--header-link-color);
 }
-.haeder-link:focus {
+.header-link:focus {
   color: var(--header-link-color);
 }
 .header-mail {
@@ -49,10 +52,10 @@ font-family: "Raleway, Tahoma, sans-serif";
   color: var(--text-color);
 }
 .header-mail:hover {
-  background: #2196f3;
+  color: #2196f3;
 }
 .header-mail:focus {
-  background: #2196f3;
+  color: #2196f3;
 }
 .header-phone {
   font-weight: 500;
@@ -62,10 +65,16 @@ font-family: "Raleway, Tahoma, sans-serif";
   color: #757575;
 }
 .header-phone:hover {
-  background: var(--hov-foc);
+  color: var(--hov-foc);
 }
 .header-phone:focus {
-  background: var(--hov-foc);
+  color: var(--hov-foc);
+}
+.about {
+  background: #e5e5e5;
+}
+.hero {
+  background: #2f303a;
 }
 .hero-title {
   font-weight: 900;
@@ -75,7 +84,6 @@ font-family: "Raleway, Tahoma, sans-serif";
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  background: #2f303a;
 }
 .hero-btn {
   background: #2196f3;
@@ -90,16 +98,10 @@ font-family: "Raleway, Tahoma, sans-serif";
   color: #ffffff;
 }
 .hero-btn:hover {
-  background: #ffffff;
-}
-.hero-btn-text:hover {
-  color: var(--hov-foc);
+  background: #188ce8;
 }
 .hero-btn:focus {
-  background: #ffffff;
-}
-.hero-btn-text:focus {
-  color: var(--hov-foc);
+  background: #188ce8;
 }
 .about-title {
   font-size: 14px;
@@ -120,6 +122,9 @@ font-family: "Raleway, Tahoma, sans-serif";
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
+}
+.comand {
+  background: #f5f4fa;
 }
 .comand-top-title {
   font-size: 36px;
@@ -146,22 +151,18 @@ font-family: "Raleway, Tahoma, sans-serif";
 .footer {
   background-color: #2f303a;
 }
-.footer-logo-web {
-  font-family: "Raleway, Tahoma, sans-serif";
+.footer-logo {
+  font-family: "Raleway, sans-serif";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.footer-logo-web {
   color: #2196f3;
 }
 .footer-logo-studio {
-  font-family: "Raleway, Tahoma, sans-serif";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footer-map {
@@ -172,10 +173,10 @@ font-family: "Raleway, Tahoma, sans-serif";
   color: #ffffff;
 }
 .footer-map:hover {
-  background: #2196f3;
+  color: #2196f3;
 }
 .footer-map:focus {
-  background: var(--hov-foc);
+  color: var(--hov-foc);
 }
 .footer-mail {
   font-style: normal;
@@ -186,10 +187,10 @@ font-family: "Raleway, Tahoma, sans-serif";
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail:hover {
-  background: var(--hov-foc);
+  color: var(--hov-foc);
 }
 .footer-mail:focus {
-  background: var(--hov-foc);
+  color: var(--hov-foc);
 }
 .footer-phone {
   font-style: normal;
@@ -199,21 +200,25 @@ font-family: "Raleway, Tahoma, sans-serif";
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-phone:hover {
-  background: var(--hov-foc);
+  color: var(--hov-foc);
 }
 .footer-phone:focus {
-  background: var(--hov-foc);
+  color: var(--hov-foc);
 }
 .is-hidden {
   visibility: hidden;
   pointer-events: none;
   position: absolute;
 }
-.herop-button {
-  color: #f5f4fa;
-  cursor: pointer;
+.active {
+  color: var(--hov-foc);
 }
-.herop-button-text {
+.hero-button-p {
+  background-color: #ffffff;
+}
+.herop-button {
+  background-color: #f5f4fa;
+  cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -223,14 +228,19 @@ font-family: "Raleway, Tahoma, sans-serif";
   color: #212121;
 }
 .herop-button:hover {
-  background: var(--hov-foc);
-}
-.herop-button-text:hover {
+  background-color: var(--hov-foc);
   color: #ffffff;
 }
 .herop-button:focus {
-  background: var(--hov-foc);
-}
-.herop-button-text:focus {
+  background-color: var(--hov-foc);
   color: #ffffff;
+}
+.hero-portfolio-title {
+  color: var(--header-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.hero-portfolio-text {
+  color: var(--text-color);
 }
