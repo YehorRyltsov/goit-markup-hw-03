@@ -17,7 +17,7 @@ body {
   background-color: #ffffff;
 }
 .header-logo {
-  font-family: "Raleway, sans-serif";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -70,9 +70,6 @@ body {
 .header-phone:focus {
   color: var(--hov-foc);
 }
-.about {
-  background: #e5e5e5;
-}
 .hero {
   background: #2f303a;
 }
@@ -116,7 +113,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.him-title {
+.hiw-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -152,7 +149,7 @@ body {
   background-color: #2f303a;
 }
 .footer-logo {
-  font-family: "Raleway, sans-serif";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
