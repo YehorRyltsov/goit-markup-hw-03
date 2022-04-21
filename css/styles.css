@@ -7,14 +7,36 @@
 body {
   font-family: Roboto, Tahoma, sans-serif;
 }
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+ul {
+  margin-left: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 .header {
   background-color: #ffffff;
+  padding-left: 215px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -72,6 +94,9 @@ body {
 }
 .hero {
   background: #2f303a;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 .hero-title {
   font-weight: 900;
@@ -100,18 +125,26 @@ body {
 .hero-btn:focus {
   background: #188ce8;
 }
+.about-list {
+  margin: 94px;
+}
+.about-item {
+  padding-left: 30px;
+}
 .about-title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-color);
+  padding-bottom: 10px;
 }
 .about-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding-bottom: 94px;
 }
 .hiw-title {
   font-size: 36px;
@@ -119,6 +152,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
+  padding-bottom: 50px;
 }
 .comand {
   background: #f5f4fa;
@@ -129,6 +163,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.comand-img {
+  padding-bottom: 30px;
 }
 .comand-title {
   font-weight: 500;
@@ -137,6 +176,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
+  padding-bottom: 10px;
 }
 .comand-text {
   font-size: 16px;
@@ -144,9 +184,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding-bottom: 30px;
 }
 .footer {
   background-color: #2f303a;
+  padding-left: 215px;
+  padding-top: 60px;
+  padding-bottom: 25px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
