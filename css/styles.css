@@ -116,6 +116,11 @@ img {
   padding-bottom: 280px;
 }
 .hero-title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -125,6 +130,11 @@ img {
   color: #ffffff;
 }
 .hero-btn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
   background: #2196f3;
   cursor: pointer;
 }
@@ -143,10 +153,15 @@ img {
   background: #188ce8;
 }
 .about-list {
-  margin: 94px;
+  display: flex;
+  /* width: 270px;
+  height: 101px; */
+  justify-self: space-evenly;
+  padding: 94px 215px;
 }
-.about-item {
-  padding-left: 30px;
+
+.about-item:not(:last-child) {
+  margin-right: 30px;
 }
 .about-title {
   font-size: 14px;
@@ -163,6 +178,13 @@ img {
   color: var(--text-color);
   padding-bottom: 94px;
 }
+.hiw-list {
+  display: flex;
+  justify-content: center;
+}
+.hiw-item:not(:last-child) {
+  margin-right: 30px;
+}
 .hiw-title {
   font-size: 36px;
   line-height: 1.17;
@@ -173,6 +195,13 @@ img {
 }
 .comand {
   background: #f5f4fa;
+}
+.comand-list {
+  display: flex;
+  justify-content: center;
+}
+.comand-item {
+  margin-left: 30px;
 }
 .comand-top-title {
   font-size: 36px;
