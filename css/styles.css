@@ -369,7 +369,13 @@ img {
 }
 .hero-portfolio-item {
   margin-bottom: 30px;
-  border: 1px #eeeeee;
+  border: 1px solid #eeeeee;
+}
+.herop-text {
+  margin-top: 20px;
+  margin-right: 24px;
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
 
 .hero-portfolio-header {
@@ -377,9 +383,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-left: 24px;
 }
 .hero-portfolio-text {
   color: var(--text-color);
-  padding-left: 24px;
 }
