@@ -35,9 +35,6 @@ img {
 .header {
   background-color: #ffffff;
   border-bottom: 1px #ececec;
-  /* padding-left: 215px;
-  padding-top: 24px;
-  padding-bottom: 25px; */
 }
 .header .container {
   display: flex;
@@ -323,17 +320,19 @@ img {
 }
 .herop {
   background-color: #ffffff;
+  padding-top: 108px;
+  padding-bottom: 94px;
 }
 .herop-list {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 .herop-button-item:not(:last-child) {
   margin-right: 8px;
 }
 .herop-button {
   cursor: pointer;
-
   width: 145px;
   border-radius: 4px;
   border-style: none;
@@ -356,16 +355,20 @@ img {
   color: #ffffff;
 }
 .hero-portfolio {
-  margin-bottom: 94px;
-  background: ffffff;
+  padding-bottom: 94px;
+  background: #ffffff;
 }
 .hero-portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 1200px;
+}
+.hero-portfolio-item:not(:last-child) {
+  margin-right: 30px;
 }
 .hero-portfolio-item {
-  padding-right: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   border: 1px #eeeeee;
 }
 
@@ -374,9 +377,9 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
+  padding-left: 24px;
 }
 .hero-portfolio-text {
   color: var(--text-color);
-  margin-left: 24px;
+  padding-left: 24px;
 }
