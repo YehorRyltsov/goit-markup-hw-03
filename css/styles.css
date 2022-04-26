@@ -183,6 +183,7 @@ img {
 .hiw-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 94px;
 }
 .hiw-item:not(:last-child) {
   margin-right: 30px;
