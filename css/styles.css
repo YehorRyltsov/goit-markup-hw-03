@@ -51,6 +51,8 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-logo-web {
@@ -62,6 +64,8 @@ img {
 
 .header-list {
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-link {
   margin-right: 50px;
