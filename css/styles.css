@@ -202,8 +202,8 @@ img {
   display: flex;
   justify-content: center;
 }
-.comand-item {
-  margin-left: 30px;
+.comand-item:not(:last-child) {
+  margin-right: 30px;
 }
 .comand-top-title {
   font-size: 36px;
