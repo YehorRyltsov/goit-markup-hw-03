@@ -201,9 +201,15 @@ img {
 .comand-list {
   display: flex;
   justify-content: center;
+
+  margin-block-end: 0px;
 }
 .comand-item:not(:last-child) {
   margin-right: 30px;
+}
+.comand-item {
+  background-color: #ffffff;
+  margin-bottom: 94px;
 }
 .comand-top-title {
   font-size: 36px;
