@@ -115,7 +115,7 @@ img {
   background: #2f303a;
   margin-left: auto;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -160,8 +160,7 @@ img {
 }
 .about-list {
   display: flex;
-  /* justify-self: space-evenly; */
-}
+  }
 
 .about-item:not(:last-child) {
   margin-right: 30px;
@@ -245,8 +244,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  /* margin-bottom: 30px; */
-}
+  }
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -259,6 +257,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  display: inline-block;
   margin-bottom: 20px;
 }
 .footer-logo-web {
@@ -318,6 +317,9 @@ img {
 .active {
   color: var(--hov-foc);
 }
+.heder{
+  border-bottom: 1px solid #ECECEC;
+}
 .herop {
   background-color: #ffffff;
   padding-top: 108px;
@@ -326,15 +328,14 @@ img {
 .herop-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .herop-button-item:not(:last-child) {
-  margin-right: 8px;
+  margin-right: 8px ;
 }
 .herop-button {
   cursor: pointer;
-  width: 145px;
-  border-radius: 4px;
+   border-radius: 4px;
   border-style: none;
   align-items: center;
   background-color: #f5f4fa;
@@ -344,7 +345,7 @@ img {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  padding: 6px 0;
+  padding: 6px 22px;
 }
 .herop-button:hover {
   background-color: var(--hov-foc);
@@ -373,6 +374,10 @@ img {
   
 }
 .herop-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
