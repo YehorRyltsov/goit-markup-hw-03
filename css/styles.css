@@ -34,11 +34,12 @@ img {
 }
 .header {
   background-color: #ffffff;
-  border-bottom: 1px #ececec;
-}
+  border-bottom: 1px solid #ECECEC;
+ }
 .header .container {
   display: flex;
   align-items: center;
+  
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -316,9 +317,6 @@ img {
 }
 .active {
   color: var(--hov-foc);
-}
-.heder{
-  border-bottom: 1px solid #ECECEC;
 }
 .herop {
   background-color: #ffffff;
